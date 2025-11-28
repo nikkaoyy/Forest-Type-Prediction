@@ -565,7 +565,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Course**: Systems Analysis and Design
 
-**Project Year**: 2024-2025
+**Project Year**: 2025-3
 
 ---
 
