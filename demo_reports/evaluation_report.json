@@ -1,0 +1,86 @@
+{
+  "metrics": {
+    "accuracy": 0.834,
+    "f1_macro": 0.8342722161512844,
+    "f1_weighted": 0.8329507142271377,
+    "per_class": {
+      "1": {
+        "name": "Spruce/Fir",
+        "precision": 0.8333333333333334,
+        "recall": 0.8024691358024691,
+        "f1_score": 0.8176100628930818,
+        "support": 81
+      },
+      "2": {
+        "name": "Lodgepole Pine",
+        "precision": 0.8382352941176471,
+        "recall": 0.890625,
+        "f1_score": 0.8636363636363636,
+        "support": 64
+      },
+      "3": {
+        "name": "Ponderosa Pine",
+        "precision": 0.8333333333333334,
+        "recall": 0.7746478873239436,
+        "f1_score": 0.8029197080291971,
+        "support": 71
+      },
+      "4": {
+        "name": "Cottonwood/Willow",
+        "precision": 0.8493150684931506,
+        "recall": 0.7560975609756098,
+        "f1_score": 0.8,
+        "support": 82
+      },
+      "5": {
+        "name": "Aspen",
+        "precision": 0.8275862068965517,
+        "recall": 0.8421052631578947,
+        "f1_score": 0.8347826086956521,
+        "support": 57
+      },
+      "6": {
+        "name": "Douglas-fir",
+        "precision": 0.8292682926829268,
+        "recall": 0.9315068493150684,
+        "f1_score": 0.8774193548387097,
+        "support": 73
+      },
+      "7": {
+        "name": "Krummholz",
+        "precision": 0.8266666666666667,
+        "recall": 0.8611111111111112,
+        "f1_score": 0.8435374149659864,
+        "support": 72
+      }
+    },
+    "log_loss": 2.4785529977368235,
+    "auc_roc_ovr": 0.49879075884779817
+  },
+  "chaos_zones": {
+    "overall": {
+      "accuracy": 0.834,
+      "f1_score": 0.8329507142271377
+    },
+    "zones": {
+      "2400": {
+        "n_observations": 23,
+        "percentage": 4.6,
+        "accuracy": 0.9130434782608695,
+        "f1_score": 0.9217391304347826
+      },
+      "2800": {
+        "n_observations": 25,
+        "percentage": 5.0,
+        "accuracy": 0.88,
+        "f1_score": 0.8673737373737374
+      },
+      "3200": {
+        "n_observations": 26,
+        "percentage": 5.2,
+        "accuracy": 0.8076923076923077,
+        "f1_score": 0.8076923076923077
+      }
+    }
+  }
+}
