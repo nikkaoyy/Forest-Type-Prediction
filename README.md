@@ -113,15 +113,6 @@ Forest-Type-Prediction/
 │   ├── app.py                       # FastAPI inference endpoint
 │   └── Dockerfile                   # Production container
 │
-├── data/
-│   ├── raw/
-│   │   ├── train.csv               # Kaggle training data
-│   │   └── test.csv                # Kaggle test data
-│   ├── processed/
-│   │   └── train_transformed.csv   # Transformed features
-│   └── artifacts/
-│       └── preprocessor.pkl        # Feature engineering pipeline
-│
 ├── demo_reports/
 │   ├── confusion_matrix.png        # Model evaluation visualization
 │   └── evaluation_report.json      # Performance metrics
@@ -136,6 +127,13 @@ Forest-Type-Prediction/
 │   ├── data/
 │   │   ├── dataValidation.py       # Circuit breaker + drift detection
 │   │   └── featureEngineer.py      # Elevation, aspect, soil modules
+|   ├── raw/
+|   │   │   ├── train.csv               # Kaggle training data
+|   │   │   └── test.csv                # Kaggle test data
+|   │   ├── processed/
+|   │   │   └── train_transformed.csv   # Transformed features
+|   │   └── artifacts/
+|   │       └── preprocessor.pkl        # Feature engineering pipeline
 │   ├── models/
 │   │   ├── uncertaintyQuantification.py  # Confidence scoring
 │   │   └── LightGBMTraining.py     # Model training pipeline
@@ -150,6 +148,7 @@ Forest-Type-Prediction/
 ├── generatePreprocessor.py        # Create preprocessor.pkl
 ├── generateLightGBM.py            # Train LightGBM model
 ├── preprocessing.py               # Preprocessing utilities
+├── main.py                        # Input of the .py file
 ├── requirements.txt               # Python dependencies
 ├── .gitattributes                 # Git LFS configuration
 ├── LICENSE
