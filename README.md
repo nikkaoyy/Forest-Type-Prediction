@@ -120,25 +120,23 @@ Forest-Type-Prediction/
 ├── notebooks/
 │   └── 01_exploratory_analysis.ipynb    # EDA with chaos detection
 │
-├── models/
-│   └── lightgbm_model.pkl          # Trained LightGBM model
-│
 ├── src/
 │   ├── data/
 │   │   ├── dataValidation.py       # Circuit breaker + drift detection
-│   │   └── featureEngineer.py      # Elevation, aspect, soil modules
-|   ├── raw/
-|   │   │   ├── train.csv               # Kaggle training data
-|   │   │   └── test.csv                # Kaggle test data
-|   │   ├── processed/
-|   │   │   └── train_transformed.csv   # Transformed features
-|   │   └── artifacts/
-|   │       └── preprocessor.pkl        # Feature engineering pipeline
+│   │   ├── featureEngineer.py      # Elevation, aspect, soil modules
+|   |   ├── raw/
+|   |   │   ├── train.csv                 # Kaggle training data
+|   |   │   └── test.csv                  # Kaggle test data
+|   |   ├── processed/
+|   |   │   └── train_transformed.csv     # Transformed features
+|   |   └── artifacts/
+|   |       └── preprocessor.pkl          # Feature engineering pipeline
 │   ├── models/
 │   │   ├── uncertaintyQuantification.py  # Confidence scoring
-│   │   └── LightGBMTraining.py     # Model training pipeline
+|   |   ├── lightgbm_model.pkl            # Trained LightGBM model
+│   │   └── LightGBMTraining.py           # Model training pipeline
 │   └── utils/
-│       └── config.py               # Centralized configuration
+│       └── config.py                     # Centralized configuration
 │
 ├── tests/
 │   ├── testFaultTolerance.py      # Circuit breaker tests
