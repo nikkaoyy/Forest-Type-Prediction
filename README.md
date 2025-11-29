@@ -73,7 +73,7 @@ This project implements a **production-grade LightGBM model** to predict forest 
 | Metric | Value |
 |--------|-------|
 | **Model** | LightGBM |
-| **Accuracy** | 95%+ (training) |
+| **Accuracy** | 87.55% |
 | **F1 (Macro)** | ~0.94 |
 | **F1 (Weighted)** | ~0.95 |
 | **CV Accuracy (5-fold)** | ~94% (±1.2%) |
@@ -616,7 +616,6 @@ This project follows an **Agile-Kanban** methodology with rotating pair programm
 
 ---
 
----
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
