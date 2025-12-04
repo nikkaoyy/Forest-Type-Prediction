@@ -587,7 +587,7 @@ Contributions are welcome! Please follow these guidelines:
 
 ### Development Team
 
-**Nicolás Martínez Pineda** - [GitHub](https://github.com/nikkaoyy)
+**Nicolás Martínez Pineda** - [@nikkaoyy](https://github.com/nikkaoyy)
 - *Role*: Project Lead & Machine Learning Engineer
 - *Responsibilities*: LightGBM model development, chaos-aware uncertainty quantification, feature engineering pipeline, cellular automata simulation
 
