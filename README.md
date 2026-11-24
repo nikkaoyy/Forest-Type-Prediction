@@ -646,3 +646,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 **⭐ If this project helped you, please star the repository!**
+
+## Contexto académico
+
+Clasificación de la cobertura forestal del dataset de Kaggle, con selección de modelo y análisis de errores. Trabajo del curso **Análisis y Diseño de Sistemas** de Ingeniería de Sistemas (Universidad Distrital Francisco José de Caldas),
+con el docente **Carlos Sierra**.
